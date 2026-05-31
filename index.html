@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Matthew Florentino</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="navbar">
+    <div class="nav-logo">Matthew Florentino<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HOME ── -->
+  <section id="home" class="section home-section">
+    <div class="noise"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="home-content">
+      <p class="home-greeting">Hello, I'm</p>
+      <h1 class="home-title">Your <span class="highlight">Name</span></h1>
+      <p class="home-subtitle">UI/UX Designer &amp; Frontend Developer</p>
+      <p class="home-desc">
+        I craft digital experiences that are beautiful, functional,<br>
+        and meaningful — one pixel at a time.
+      </p>
+      <div class="home-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section about-section">
+    <div class="orb orb-4"></div>
+    <div class="section-label">01 — About</div>
+
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="about-photo-wrap">
+          <div class="about-photo-placeholder">
+            <span>YOUR<br>PHOTO</span>
+          </div>
+          <div class="photo-ring"></div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <h2 class="section-title">Who I <span class="highlight">Am</span></h2>
+        <p class="about-text">
+          I'm a passionate designer and developer with over <strong>3 years of experience</strong>
+          building modern web interfaces. I love blending aesthetics with functionality to create
+          products that users genuinely enjoy.
+        </p>
+        <p class="about-text">
+          When I'm not pushing pixels, I'm exploring new tech stacks, contributing to open-source,
+          or sipping coffee while sketching UI concepts on paper.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-tag">HTML &amp; CSS</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">React</div>
+          <div class="skill-tag">Figma</div>
+          <div class="skill-tag">Node.js</div>
+          <div class="skill-tag">UI/UX Design</div>
+          <div class="skill-tag">Git &amp; GitHub</div>
+          <div class="skill-tag">Responsive Design</div>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Exp.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">24</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section projects-section">
+    <div class="orb orb-5"></div>
+    <div class="section-label">02 — Projects</div>
+    <h2 class="section-title center">My <span class="highlight">Work</span></h2>
+    <p class="section-sub center">A selection of projects I've built with care and creativity.</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card card-featured">
+        <div class="card-badge">Featured</div>
+        <div class="card-visual v1"></div>
+        <div class="card-body">
+          <span class="card-tag">Web App</span>
+          <h3 class="card-title">E-Commerce Dashboard</h3>
+          <p class="card-desc">A fully responsive admin dashboard with real-time analytics, dark mode, and role-based access control.</p>
+          <div class="card-tech">
+            <span>React</span><span>Node.js</span><span>Chart.js</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">Live Demo ↗</a>
+            <a href="#" class="card-link ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="card-visual v2"></div>
+        <div class="card-body">
+          <span class="card-tag">Mobile UI</span>
+          <h3 class="card-title">Finance Tracker App</h3>
+          <p class="card-desc">A clean mobile-first finance tracker with budget goals, expense logging, and visual insights.</p>
+          <div class="card-tech">
+            <span>Figma</span><span>React Native</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">Live Demo ↗</a>
+            <a href="#" class="card-link ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="card-visual v3"></div>
+        <div class="card-body">
+          <span class="card-tag">Landing Page</span>
+          <h3 class="card-title">SaaS Marketing Site</h3>
+          <p class="card-desc">High-converting landing page for a SaaS product with animated sections and optimised performance.</p>
+          <div class="card-tech">
+            <span>HTML</span><span>CSS</span><span>GSAP</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">Live Demo ↗</a>
+            <a href="#" class="card-link ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="card-visual v4"></div>
+        <div class="card-body">
+          <span class="card-tag">Full Stack</span>
+          <h3 class="card-title">Blog CMS Platform</h3>
+          <p class="card-desc">A full-stack CMS with markdown support, tagging, auth, and a clean reading experience.</p>
+          <div class="card-tech">
+            <span>Next.js</span><span>MongoDB</span><span>TailwindCSS</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">Live Demo ↗</a>
+            <a href="#" class="card-link ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section contact-section">
+    <div class="orb orb-6"></div>
+    <div class="section-label">03 — Contact</div>
+    <h2 class="section-title center">Let's <span class="highlight">Connect</span></h2>
+    <p class="section-sub center">Have a project in mind or just want to say hi? My inbox is always open.</p>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="ci-icon">✉</div>
+          <div>
+            <p class="ci-label">Email</p>
+            <a href="mailto:hello@yourname.com" class="ci-value">hello@yourname.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">📍</div>
+          <div>
+            <p class="ci-label">Location</p>
+            <span class="ci-value">Surabaya, Indonesia</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">🔗</div>
+          <div>
+            <p class="ci-label">Socials</p>
+            <div class="socials">
+              <a href="#" class="social-link">GitHub</a>
+              <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">Twitter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="john@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>Designed &amp; Built by <span class="highlight">Your Name</span> · 2025</p>
+    <p class="footer-sub">Made with ♥ and lots of coffee</p>
+  </footer>
+
+</body>
+</html>
